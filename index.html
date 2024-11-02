@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">junebug travels</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#hero">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#destinations"
+                >Destinations</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#tours">Tours</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="content">
+          <h2>Going somewhere?</h2>
+          <h3>Book cheap flights with your one-stop travel shop!</h3>
+          <input type="text" placeholder="plan a trip" />
+          <button class="btn1">search</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destinations section -->
+    <section id="destinations" class="destinations">
+      <div class="container">
+        <div class="destinations text-center pt-5 pb-3">
+          <h2 class="text-success display-5">Destinations</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 height">
+            <div class="card">
+              <img src="./images/20629-London-Eye.jpg" alt=""  class="display-6"/>
+              <div class="card-body text-lg-center">
+                <h3 class="text-danger display-6">West End</h3>
+                <p>
+                  4.5/5(21 area reviews)
+                  <br />
+                  Piccadilly Circus and Trafalgar square are a few top
+                  attractions in West End. Hop around the city on the metro at
+                  Bond street(Elizabeth Line) Station or Oxford Circus
+                  Underground Station and check out the area's fascinating
+                  museums, popular shops and acclaimed art galleries.
+                </p>
+                <button class="btn btn-success">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 height">
+            <div class="card">
+              <img
+                src="./images/474240-Left-Bank-Paris.avif"
+                alt=""
+              />
+              <div class="card-body text-lg-center">
+                <h3 class="text-danger display-6">Paris Center</h3>
+                <p>
+                  4/5(15 area reviews)
+                  <br />
+                  Louvre Museum and Notre-Dam are a few top attraction in Paris
+                  City Center. Hop around the city on the metro at Palais
+                  Royal-Museé du Louvre Metro Staion or Louvre-Rivoli Station
+                  and check out the area's fascinating museums, stunning
+                  cathedral and charming cafes.
+                </p>
+                <button class="btn btn-success">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 height">
+            <div class="card">
+              <img
+                src="./images/501673-arenas-de-barcelona.avif"
+                alt=""
+              />
+              <div class="card-body text-lg-center">
+                <h3 class="text-danger display-6">Ciutat Vella</h3>
+                <p>
+                  4.5/5(116 area reviews)
+                  <br />
+                  Known for its stunning cathedral, captivating waterfront views
+                  and popular shops, there's plenty to explore in Ciutat Vella.
+                  Top attractions like La Rambla and Port de Barcelona are major
+                  draws. Catch the metro at Juame 1 Station or Barceloneta
+                  Station to see more of the city.
+                </p>
+                <button class="btn btn-success">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tours section -->
+    <section id="tours" class="tours py-5">
+      <div class="container">
+        <div class="row text-center pt-5">
+          <h3 class="text-success display-5">Tours</h3>
+        </div>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                <strong class="text-danger text-center"
+                  >LONDON WINTER-WONDERLAND TRIP</strong
+                >
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
+            >
+              <div class="accordion-body">
+                Experience the magic of winter in London with our exclusive
+                2-night package. Enjoy breakfast-inclusive hotel accommodation,
+                complimentary business class lounge access at MMA, protocol
+                services, and airport transfers. Explore the city with a guided
+                London tour, plus a visit to Stonehenge and Windsor Castle. Visa
+                fees are included, making your journey stress-free. Starting
+                from ₦984,200 (for 2 People sharing a room), this is the perfect
+                winter escape.
+              </div>
+              <div class="text-center">
+                <a href="#">view details</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo"
+              >
+                <strong class="text-danger"> PARIS</strong>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                Discover the charm of Paris this winter with our 2-night
+                getaway. Stay in a cozy hotel with breakfast included, and enjoy
+                complimentary business class lounge access at MMA, protocol
+                services, and airport transfers. Explore the City of Light with
+                a Paris city tour, and indulge in a gourmet dinner while
+                cruising the Seine on the Bateaux Parisiens. Visa fees are
+                covered, making your trip hassle-free. Starting from ₦976,890
+                (for 2 people sharing a room), this is the perfect romantic
+                escape.
+              </div>
+              <div class="text-center">
+              <a href="#">view details</a>
+            </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                <strong class="text-danger">BARCELONA DREAMS</strong>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                For an exciting African Christmas experience, holiday in Spain's
+                biggest city, Barcelona. Enjoy a self-guided tour to Barcelona's
+                most famous museum and discover the notable display of history,
+                culture and arts through 22 art exhibits, photographs, and
+                footage. Also inclusive is a tour to major highlights of this
+                beautiful city. From as low as ₦1,633,800 (per Person for 2
+                People sharing a room), enjoy all these and more in Barcelona,
+                this Christmas.
+              </div>
+              <div class="text-center">
+              <a href="#">view details</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Contact section -->
+    <section id="contact" class="contact text-center pt-5">
+      <div class="container">
+        <div class="row">
+          <h2>Contact For More</h2>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name"
+        />
+      </div>
+
+      <div class="mb-3">
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+      </div>
+
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="destination of interest"
+        />
+      </div>
+
+      <div class="mb-3">
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="text-center bg-dark text-white p-3">
+      <div class="container">
+        <footer>copyright @2024 JuneBugTravels</footer>
+      </div>
+
+      <div class="icon">
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-whatsapp"></i>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
